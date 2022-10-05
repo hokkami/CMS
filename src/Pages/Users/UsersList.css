@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "iranyekanwebregular";
+    src: url("../../fonts/iranyekanwebregular.woff") format("woff")
+}
+
+*{
+    font-family: 'iranyekanwebregular';
+}
+.userList{
+    flex:4;
+}
+
+.userListUser {
+    display: flex;
+    align-items: center;
+}
+
+.userListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left:10px ;
+    object-fit: cover;
+}
+
+.actionRow{
+    display: flex;
+    justify-content: center;
+}
+
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    background: #3bb077;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}

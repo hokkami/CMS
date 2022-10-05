@@ -1,0 +1,63 @@
+.mainContainer{
+    flex: 4;
+    margin-bottom: 50px;
+}
+
+.newUserTitle{
+    margin: 20px 20px 0;
+}
+
+.newUserForm{
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+.sideRight{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.inputField{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(199 , 198, 198, 0.75);
+}
+.inputField:focus{
+    outline: none;
+}
+
+.userInputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.fileIcon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.newUserAddBtn{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: slategray;
+    color:#fff;
+    cursor: pointer;
+}
+
+.sideLeft{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.avatar{
+    width: 600px;
+    height: 600px;
+}
